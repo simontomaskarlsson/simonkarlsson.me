@@ -1,7 +1,7 @@
 .link_image {
   border: 0;
   width: 30px;
-  margin-right: 20px;
+  margin-right: 40px;
 
   border-radius: 100%;
   /*border: 2px solid black;
@@ -32,9 +32,9 @@
 
 }
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
+/* To avoid image links to appear on two rows */
+@media (max-width: 920px) and (min-width: 550px) {
   .link_image {
-    margin-right: 40px;
+    margin-right: 10px;
   }
 }
