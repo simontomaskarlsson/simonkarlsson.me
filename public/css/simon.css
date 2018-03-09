@@ -1,8 +1,7 @@
 .link_image {
   border: 0;
-  border-spacing: 1px;
   width: 30px;
-  margin-right: 40px;
+  margin-right: 20px;
 
   border-radius: 100%;
   /*border: 2px solid black;
@@ -31,4 +30,11 @@
   border: "0";
   max-width: 100%;
 
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .link_image {
+    margin-right: 40px;
+  }
 }
