@@ -3,9 +3,33 @@
   width: 30px;
   margin-right: 40px;
 
+  /*onmouseover: bigImg(this);
+  onmouseout: "normalImg(this)";*/
+
   border-radius: 100%;
   /*border: 2px solid black;
   padding: 4px;*/
+
+
+}
+
+.link_image:hover {
+    /*position:relative;
+    top:-25px;
+    left:-35px;
+    width:50px;
+    height:auto;
+    display:block;
+    z-index:999;*/
+    position:relative;
+    top:-20px;
+    left:-10px;
+    width:50px;
+
+    border-radius: 100%;
+    border: 2px solid lightgray;
+    padding: 6px;
+
 }
 
 .simon_name {
