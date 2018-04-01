@@ -31,14 +31,14 @@ body {
   background-size: cover;*/
 }
 
-.link_image {
+.link-image {
   border: 0;
   width: 40px;
   margin-right: 30px;
   border-radius: 100%;
 }
 
-.link_image:hover {
+.link-image:hover {
     /*top: -8px;
     position: relative;
     width: 34px;
@@ -46,33 +46,72 @@ body {
     background-color: #e7d499d9;
 }
 
-a.link_image_ref {
+a.link-image-ref {
     color: #fff;
 }
 
-.simon_name {
+.project-image {
+  position: relative;
+  top: -5rem;
+  width: 20rem;
+  transition: 1s ease-in-out;
+}
+
+#beatpass-birdy:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.simon-name {
   font-size: 3.0rem;
   line-height: 1.50;
   letter-spacing: -.06rem;
 }
 
-.simon_image {
-  border: "0";
-  max-width: 100%;
+.project-title {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
 }
 
-.bgimg {
-    background-image: url('/images/LinkedIn_photo.jpg');
+
+.simon-image {
+  border: "0";
+  padding-left: 10rem;
+  max-width: 80%;
+  margin-bottom: -0.7rem;
 }
 
 /* To avoid image links to appear on two rows */
 @media (max-width: 920px) and (min-width: 550px) {
-  .link_image {
+  .link-image {
     margin-right: 0px;
   }
 }
 
 
+/* Full page background
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#hello-background{
+  background: url(../images/hello.png);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+#alps-background{
+  background: url(../images/LinkedIn_photo.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+#gray-background{
+  background: #edeeef;
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
 
 /* =============================================================================
 * Skeleton V2.0.4
