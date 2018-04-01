@@ -31,6 +31,13 @@ body {
   background-size: cover;*/
 }
 
+.hello-image {
+  position: absolute;
+  top: 3rem;
+  left: 10rem;
+  width: 150px;
+}
+
 .link-image {
   border: 0;
   width: 40px;
