@@ -39,6 +39,30 @@ body {
   left: 10rem;
 }
 
+#hello-image-head {
+  width: 150px;
+  height: 56px;
+  position: relative;
+  top: 5.5rem;
+  left: 10rem;
+  z-index: 1;
+  transition: 0.5s ease-in-out;
+}
+
+#hello-image-box {
+  width: 150px;
+  height: 56px;
+  position: absolute;
+  top: 7.2rem;
+  left: 10rem;
+  z-index: 2;
+}
+
+#hello-image-head:hover {
+  -webkit-transform: translateY(-25px);
+  transform: translateY(-25px);
+}
+
 .link-image {
   border: 0;
   width: 40px;
