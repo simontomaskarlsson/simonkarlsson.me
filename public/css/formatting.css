@@ -163,7 +163,7 @@ hr.colored {
 }
 
 #gray-background{
-  background: #edeeef;
+  background: url(../images/ski_norway.jpg);/*#edeeef;*/
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
