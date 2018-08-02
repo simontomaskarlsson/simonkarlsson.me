@@ -88,6 +88,7 @@ a.link-image-ref {
   top: -5rem;
   width: 20rem;
   transition: 1s ease-in-out;
+  margin-left: 4rem;
 }
 
 #beatpass-birdy:hover {
@@ -176,6 +177,10 @@ hr.colored {
   }
   #projects-background{
     background: #edeeef;
+  }
+
+  .project-image{
+    margin-top: 3rem;
   }
 }
 
