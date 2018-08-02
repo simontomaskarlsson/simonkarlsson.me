@@ -162,11 +162,21 @@ hr.colored {
   background-attachment:fixed;
 }
 
-#gray-background{
+#projects-background{
   background: url(../images/ski_norway.jpg);/*#edeeef;*/
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
+}
+
+/* Larger than tablet */
+@media (max-width: 815px) {
+  #alps-background{
+    background: #edeeef;
+  }
+  #projects-background{
+    background: #edeeef;
+  }
 }
 
 
