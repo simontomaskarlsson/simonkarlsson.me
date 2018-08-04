@@ -32,6 +32,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="/css/formatting.css">
 
+  <!-- jquery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="/js/main.js"></script>
+
   <!-- Favicon&nbsp;&nbsp;&nbsp;
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/favicon.png">
@@ -41,15 +49,20 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <section id="hello-background">
-  </br></br></br></br></br>
-  </section> -->
+  <!-- Sticky navigation bar -->
+  <div class="navigation-bar">
+    <div class="navigation">
+      <a href="#" id="intro-nav-button">Intro</a>
+      <a href="#" id="milestones-nav-button">Milestones</a>
+      <a href="#" id="projects-nav-button">Projects</a>
+    </div>
+  </div>
+
   <img class="hello-image" src="/images/hello.png">
   <img id="hello-image-head" src="/images/hello_head.png">
   <img id="hello-image-box" src="/images/hello_box.png">
 
-
-  <div class="container">
+  <div class="container" id="intro-section">
     <div class="row">
       <div class="five columns" style="margin-top: 20%" style="margin-bottom: 0%">
         <h4 class="simon-hi">Hi, I'm</h4>
@@ -81,12 +94,12 @@
     </div>
   </div>
 
-  <section id="alps-background">
+  <section id="alps-section">
   </br></br></br></br></br></br></br></br>
   </br></br></br></br></br></br></br></br>
   </section>
 
-  <section id="personal-info-section">
+  <section id="milestones-section">
     <div class="container">
       <h2 class="project-title">Milestones</h2>
         <ol>
@@ -137,7 +150,7 @@
   </br>
   </section>
 
-  <section id="projects-background">
+  <section id="projects-section">
     <div class="container">
       <h2 class="project-title">Fun projects to check out!</h2>
       <div class="row" style="margin-bottom: -3%">
@@ -219,10 +232,6 @@
     </div>
   </br></br></br></br></br></br></br>
   </section>
-
-<script>
-  console.log("Hi, come here often? :)");
-</script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
