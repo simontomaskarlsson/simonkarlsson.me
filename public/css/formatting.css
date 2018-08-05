@@ -86,7 +86,7 @@ body {
 
 #hello-image-box {
   width: 150px;
-  height: 56px;
+  height: 70px;
   position: absolute;
   top: 9.2rem;
   left: 10rem;
@@ -184,6 +184,10 @@ hr.colored {
 
 /* Full page background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#intro-section{
+  margin-top: auto;
+}
+
 #hello-background{
   background: url(../images/hello.png);
   background-size:cover;
