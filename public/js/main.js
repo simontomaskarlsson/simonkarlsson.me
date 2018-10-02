@@ -28,9 +28,9 @@ $(document).ready(function () {
     }, scrolltempo);
   });
 
-  $("#milestones-nav-button").click(function() {
+  $("#second-nav-button").click(function() {
     $('html, body').animate({
-      scrollTop: $('#milestones-section').offset().top
+      scrollTop: $('#boid-section').offset().top
     }, scrolltempo);
   });
 

@@ -40,7 +40,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="/js/main.js"></script>
 
-  <!-- Favicon&nbsp;&nbsp;&nbsp;
+  <!-- Load function to include html file -->
+  <script>
+    $(function(){
+      $("#includedBoidHtml").load("/boid-simulator/index.html");
+    });
+  </script>
+
+  <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/favicon.png">
 
@@ -53,7 +60,7 @@
   <div class="navigation-bar">
     <div class="navigation">
       <a href="#" id="intro-nav-button">Intro</a>
-      <a href="#" id="milestones-nav-button">Milestones</a>
+      <a href="#" id="second-nav-button">Boid</a>
       <a href="#" id="projects-nav-button">Projects</a>
     </div>
   </div>
@@ -99,7 +106,7 @@
   </br></br></br></br></br></br></br></br>
   </section>
 
-  <section id="milestones-section">
+  <!-- <section id="milestones-section">
     <div class="container">
       <h2 class="project-title">Milestones</h2>
         <ol>
@@ -148,7 +155,18 @@
         </ol>
     </div>
   </br>
+  </section> -->
+
+  <section id="boid-section">
+    <div class="container">
+      <!-- <h2 class="project-title">Boid simulator</h2> -->
+      <div id="includedBoidHtml"></div>
+      <!-- </br></br></br></br></br></br></br>
+      </br></br></br></br></br></br></br>
+      </br></br></br></br></br></br></br> -->
+    </div>
   </section>
+
 
   <section id="projects-section">
     <div class="container">
@@ -214,7 +232,7 @@
       </div>
       </br>
 
-      <div class="row" style="margin-top: -5%">
+      <!-- <div class="row" style="margin-top: -5%">
         <h4>Moonwhale</h4>
         <div class="four columns">
           <p>Your guide in the crypto universe!</br>
@@ -228,7 +246,7 @@
         <div class="four columns">
           <img class="project-image" src="/images/moonwhale.png">
         </div>
-      </div>
+      </div> -->
     </div>
   </br></br></br></br></br></br></br>
   </section>
