@@ -98,9 +98,14 @@ body {
   transform: translateY(-25px);
 }
 
+#link-image-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .link-image {
   border: 0;
-  width: 40px;
+  width: 30px;
   margin-right: 30px;
   border-radius: 100%;
 }
@@ -116,6 +121,26 @@ body {
 
 a.link-image-ref {
     color: #fff;
+}
+.email-address {
+  background-color: white;
+  z-index: -1;
+  color: white;
+  padding-top: 0.3rem;
+  margin-left: -2rem;
+}
+
+.email-image-transform {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.email-image-transform-active {
+  color: black;
+  position: inherit;
 }
 
 .project-image {
@@ -158,6 +183,8 @@ hr.colored {
   border: 0;
   border-bottom: 1px dashed #ccc;
   background: #b8aa5c;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .project-title {
@@ -175,11 +202,11 @@ hr.colored {
 }
 
 /* To avoid image links to appear on two rows */
-@media (max-width: 920px) and (min-width: 550px) {
+/* @media (max-width: 920px) and (min-width: 550px) {
   .link-image {
     margin-right: 0px;
   }
-}
+} */
 
 
 /* Full page background

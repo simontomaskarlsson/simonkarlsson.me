@@ -15,9 +15,13 @@ window.onscroll = function sticky() {
   }
 }
 
+$("#email-image").click(function() {
+  $('.email-image-transform').toggleClass('email-image-transform-active');
+});
+
+
 console.log("Hi, come here often? :)");
 }
-
 //JQuery
 $(document).ready(function () {
   var scrolltempo = 600;
